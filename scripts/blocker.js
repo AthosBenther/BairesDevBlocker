@@ -1,0 +1,1 @@
+Array.from(document.getElementsByClassName("card js_rowCard")).forEach(function (card) { if(card.outerHTML.includes('BairesDev')) card.remove()} );

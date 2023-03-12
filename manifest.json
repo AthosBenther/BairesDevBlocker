@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "BairesDev Blocker",
+    "description": "Bloqueia anuncios de emprego da BairesDev no infojobs",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/blocker.js"
+            ],
+            "matches": [
+                "https://www.infojobs.com.br/*"
+            ]
+        }
+    ],
+    "icons": {
+        "128": "icon.png"
+    }
+}
